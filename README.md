@@ -22,6 +22,8 @@ For Frontend - `cd frontend` `npm i`💻
 
 ## Environment Variables
 Make Sure to Create a .env file in backend and frontend directory and add appropriate variables in order to use the app.
+
 For Backend - PORT = MONGODB_URI = JWT_SECRET = JWT_EXPIRES_IN = ALLOW_ORIGIN 
+
 For Frontend - REACT_APP_BACKEND_URL = REACT_APP_FRONTEND_URL = fill each filed with your info respectively.
 
