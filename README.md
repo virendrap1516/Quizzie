@@ -1,4 +1,4 @@
-# Quizzie
+# Quizzie 🤖
 
 Quizzie is a quiz builder app where users can create quizzes and share them with their friends, who can take the quizzes without logging in.🎮
 
