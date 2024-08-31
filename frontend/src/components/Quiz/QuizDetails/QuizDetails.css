@@ -1,0 +1,234 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #041325;
+    z-index: 10;
+}
+
+.quizDetailsForm {
+    margin: 0 auto;
+    width: 60%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    color: #474444;
+    z-index: 100;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.playQuizhead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+.playQuizhead>p:last-child {
+    color: #D60000;
+}
+
+.quizQuestion {
+    font-size: 1.5rem;
+}
+
+.playQuizOptions {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem 6rem;
+    margin: 1rem 4rem 1.5rem;
+    font-size: 1.25rem;
+}
+
+.optionBox {
+    background-color: #F0F0F0;
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 5px;
+    color: #000000;
+}
+
+.imgOptionBox {
+    width: 100%;
+    height: 120px;
+    border-radius: 5px;
+}
+
+.textImgOptionBox,
+.poolTextImgOptionBox {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75rem;
+    align-items: center;
+    background-color: #F0F0F0;
+    height: 120px;
+    border-radius: 5px;
+}
+
+.imgOptionBox>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.textImgOptionBox>img,
+.poolTextImgOptionBox>img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.answerSelected {
+    border: 5px solid #5076FF;
+    border-radius: 10px;
+}
+
+.nextButtonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.nextButton {
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 1.25rem;
+    border: none;
+    outline: none;
+    background-color: #60B84B;
+    color: #FFFFFF;
+}
+
+.quizCompletedForm {
+    margin: 0 auto;
+    width: 60%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    color: #474444;
+    z-index: 100;
+    font-weight: 700;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quizCompletedForm>h1,
+.quizCompletedForm>p {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.score {
+    color: #60B84B;
+}
+
+.pollCompletedForm {
+    width: 50%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    color: #474444;
+    z-index: 100;
+    font-weight: 700;
+    font-size: 3.5rem;
+    text-align: center;
+    padding: 6rem;
+}
+
+
+@media screen and (max-width: 768px) {
+    .quizDetailsForm {
+        margin: 0;
+        border-radius: 0;
+        width: 100%;
+        height: 100vh;
+        font-size: 1.25rem;
+        overflow-y: auto;
+    }
+
+    .playQuizhead {
+        margin-left: 0;
+        margin-bottom: 2rem;
+    }
+
+    .quizQuestion {
+        text-align: center;
+        font-size: 1.25rem;
+    }
+
+    .playQuizOptions {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        margin: 1rem 0 2.5rem;
+        font-size: 1rem;
+    }
+
+    .optionBox {
+        padding: 1rem;
+    }
+
+    .imgOptionBox,
+    .textImgOptionBox {
+        height: 80px;
+    }
+
+    .poolTextImgOptionBox {
+        gap: 1rem;
+        height: 150px;
+        padding: 0;
+        position: relative;
+    }
+
+    .poolTextImgOptionBox>img {
+        width: 100%;
+    }
+
+    .poolTextImgOptionBox>p {
+        position: absolute;
+        top: 0.5rem;
+        left: 0.5rem;
+        color: #FFFFFF !important;
+    }
+
+    .nextButton {
+        width: 188px;
+        height: 32px;
+        font-size: 1rem;
+    }
+
+    .quizCompletedForm {
+        margin: 0;
+        border-radius: 0;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .pollCompletedForm {
+        border-radius: 0;
+        padding: 15rem 2rem;
+        width: 100%;
+        height: 100vh;
+        font-size: 2.5rem;
+    }
+
+}

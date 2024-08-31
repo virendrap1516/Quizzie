@@ -1,0 +1,79 @@
+.analyticsContainer {
+    background-color: #EDEDED;
+    font-weight: 600;
+    width: 80vw;
+    height: 100vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.analyticsContainer::-webkit-scrollbar {
+    width: 12px;
+}
+
+.analyticsContainer::-webkit-scrollbar-track {
+    background: #EDEDED;
+}
+
+.analyticsContainer::-webkit-scrollbar-thumb {
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    border: 2px solid #EDEDED;
+}
+
+.analyticsContainer>h1 {
+    font-size: 3rem;
+    color: #5076FF;
+    margin: 3rem 0 2rem;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 2rem 0;
+}
+
+thead {
+    background-color: #5076FF;
+    color: white;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+.table-row {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.even-row {
+    background-color: #B3C4FF;
+}
+
+th {
+    padding: 0.25rem 1.5rem;
+}
+
+td {
+    padding: 0.25rem 1.5rem;
+    text-align: center;
+}
+
+td>button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    font-size: 1.5rem;
+}
+
+td>button>i {
+    width: 24px;
+    height: 24px;
+}
+
+td>a {
+    color: #000000;
+    font-size: 13px;
+}

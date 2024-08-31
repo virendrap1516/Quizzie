@@ -1,0 +1,82 @@
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 10;
+}
+
+.quizForm {
+    margin: 0 auto;
+    width: 60%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    color: #9F9F9F;
+    z-index: 100;
+    padding: 4rem;
+    font-weight: 500;
+}
+
+.slideFormInputField {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+}
+
+.quizType {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5rem 0 3rem;
+    font-size: 1.25rem;
+}
+
+.optionName {
+    width: 171px;
+    padding: 0.5rem 0;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+.activeOption {
+    background-color: #60B84B;
+    color: #FFFFFF;
+}
+
+.quizBtnContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quizBtnContainer>button {
+    width: 279px;
+    height: 46px;
+    border-radius: 10px;
+    border: none;
+    background-color: #FFFFFF;
+    color: #474444;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+    font-size: 1.25rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.continueButton {
+    background-color: #60B84B !important;
+    color: #FFFFFF !important;
+}

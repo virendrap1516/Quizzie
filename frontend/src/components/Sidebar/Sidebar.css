@@ -1,0 +1,50 @@
+.sidebar {
+    background-color: #FFFFFF;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0 1rem;
+    color: #474444;
+}
+
+.dashboardHeading {
+    font-size: 2rem;
+    font-family: "Jomhuria", serif;
+    font-weight: 700;
+}
+
+.sidebar>div {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.sidebar>div>a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all 0.5s;
+    color: #474444;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sidebar>div>a.link-active {
+    width: 230px;
+    padding: 0.25rem 0;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.12);
+}
+
+.logoutBtn {
+    width: 124px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 1rem;
+    border-top: 1px solid #000000;
+    cursor: pointer;
+}

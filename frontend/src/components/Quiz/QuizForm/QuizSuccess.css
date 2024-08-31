@@ -1,0 +1,59 @@
+
+.quizSuccessForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    margin: 0 auto;
+    width: 60%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    color: #474444;
+    z-index: 100;
+    padding: 6rem 3rem 4rem;
+    font-weight: 600;
+}
+
+.formCloseButton {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background: transparent;
+    color: #474444;
+    font-weight: 500;
+}
+
+.quizSuccessForm>h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0 6rem;
+}
+
+.quizSuccessForm>p {
+    padding: 1rem;
+    background-color: #EDEDED;
+    border-radius: 10px;
+}
+
+.shareButton {
+    width: 279px;
+    padding: 0.5rem 0;
+    text-align: center;
+    background-color: #60B84B;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    font-size: 1.25rem;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
